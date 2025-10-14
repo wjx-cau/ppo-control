@@ -32,7 +32,7 @@
 
 本项目实现了一个基于**深度强化学习**的 3 自由度机械臂控制系统，使用 **PPO (Proximal Policy Optimization)** 算法训练智能体，让机械臂学会自主规划轨迹并精准接触目标叶片。
 
-![demo](assets/img/截屏2025-10-14 下午3.30.47.png)
+[![demo](assets/img/截屏2025-10-14 下午3.30.47.png)](https://github.com/wjx-cau/ppo-control/blob/94ce4f2fcaf31c96e920a6c1674f4724595c5653/assets%3Aimg%3A/%E6%88%AA%E5%B1%8F2025-10-14%20%E4%B8%8B%E5%8D%883.30.47.png)
 
 ### 核心技术栈
 

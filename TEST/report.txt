@@ -1,0 +1,45 @@
+# Qwen Red Annotation Report
+image: 截屏2025-10-16 下午11.16.47.png
+model: lmstudio-community/Qwen3-VL-8B-Instruct-MLX-8bit
+fallback_used: True
+
+== model_output ==
+<frozen runpy>:128: RuntimeWarning: 'mlx_vlm.generate' found in sys.modules after import of package 'mlx_vlm', but prior to execution of 'mlx_vlm.generate'; this may result in unpredictable behaviour
+Calling `python -m mlx_vlm.generate ...` directly is deprecated. Use `mlx_vlm generate` or `python -m mlx_vlm generate` instead.
+
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]
+Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 111748.77it/s]
+libc++abi: terminating due to uncaught exception of type std::runtime_error: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+/Users/wjx_macair/miniforge/envs/bullet312/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+
+== parsed_boxes ==
+[
+  {
+    "label": "red",
+    "bbox": [
+      1385,
+      514,
+      1403,
+      530
+    ]
+  },
+  {
+    "label": "red",
+    "bbox": [
+      1301,
+      446,
+      1328,
+      475
+    ]
+  },
+  {
+    "label": "red",
+    "bbox": [
+      292,
+      58,
+      362,
+      82
+    ]
+  }
+]
